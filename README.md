@@ -25,7 +25,7 @@ set master
      not last result, but go to last result then
      System.Boolean with 1 param(RecRoom.Networking.DataTypes.name)
      inside "RecRoom.Networking.Instantiation.Runtime.dll", "RecRoom.Networking",
-     looks like: 	RecRoom.Networking.DataTypes.JNIVCIZIPSX VJZKYKLEVCC() (different names though , VJZKYKLEVCC , JNIVCIZIPSX) 
+     looks like: 	System.Boolean EKOJRVGZPFD(RecRoom.Networking.DataTypes.JNIVCIZIPSX) (different names though , VJZKYKLEVCC , JNIVCIZIPSX) 
      next 2 above it are both RecRoom.Networking.DataTypes.
      then 2 Booleans above that
 
