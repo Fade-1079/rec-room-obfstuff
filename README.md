@@ -28,19 +28,19 @@ set master
      looks like: 	System.Boolean EKOJRVGZPFD(RecRoom.Networking.DataTypes.JNIVCIZIPSX) (different names though , VJZKYKLEVCC , JNIVCIZIPSX) 
      next 2 above it are both RecRoom.Networking.DataTypes.
      then 2 Booleans above that. 
-     .
-	 .
-     Playerlist
+  
+	 
+.
+	 Playerlist
      search "RecRoom.Networking.Instantiation.Runtime.dll" then search System.Collections.Generic.IReadOnlyList<, there is 2
-     // System.Collections.Generic.IReadOnlyList<RecRoom.Networking.DataTypes.JNIVCIZIPSX> YENVYXZQREK(System.Boolean)
-     // 	System.Collections.Generic.IReadOnlyList<RecRoom.Networking.DataTypes.JNIVCIZIPSX> ZXOGAFLDDTP(System.Boolean)
-     // above them are: 	RecRoom.Networking.DataTypes.JNIVCIZIPSX ENKLWSKEEBX(System.Int32)
-     .
-	 .
-     // getExecParams 
-     // search for "Assembly-CSharp.dll", "RecRoom.Systems.PlayerRoles", "PlayerRoomRoleManager", ".ctor", 0 params
-     // 	System.Void .ctor()
-     // below that is Circuits.Dynamic.Api.AQJBJOMITDO KBFPZLHJWJV() (again the names might be different AQJBJOMITDO, KBFPZLHJWJV)
+      System.Collections.Generic.IReadOnlyList<RecRoom.Networking.DataTypes.JNIVCIZIPSX> YENVYXZQREK(System.Boolean)
+     	System.Collections.Generic.IReadOnlyList<RecRoom.Networking.DataTypes.JNIVCIZIPSX> ZXOGAFLDDTP(System.Boolean)
+     above them are: 	RecRoom.Networking.DataTypes.JNIVCIZIPSX ENKLWSKEEBX(System.Int32)
+.
+ getExecParams 
+      search for "Assembly-CSharp.dll", "RecRoom.Systems.PlayerRoles", "PlayerRoomRoleManager", ".ctor", 0 params
+      	System.Void .ctor()
+      below that is Circuits.Dynamic.Api.AQJBJOMITDO KBFPZLHJWJV() (again the names might be different AQJBJOMITDO, KBFPZLHJWJV)
 .
 .
      trygenquestgift
