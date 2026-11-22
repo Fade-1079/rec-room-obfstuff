@@ -214,10 +214,38 @@ protected internal void THISISOBFUSCATEDPROBABLY(ref int THISISOBFUSCATEDPROBABL
 public bool THISISOBFUSCATEDPROBABLY(Hashtable THISISOBFUSCATEDPROBABLY, Hashtable THISISOBFUSCATEDPROBABLY, THISISOBFUSCATEDPROBABLY THISISOBFUSCATEDPROBABLY) { }
 
 private bool THISISOBFUSCATEDPROBABLY() { }
-```
+
 
 then it's the end.
 
----
+## Destroy's
+
+```csharp
+public static void THISISOBFUSCATEDPROBABLY(
+    PhotonView THISISOBFUSCATEDPROBABLY,
+    THISISOBFUSCATEDPROBABLY.THISISOBFUSCATEDPROBABLY THISISOBFUSCATEDPROBABLY
+) { }
+
+public static void THISISOBFUSCATEDPROBABLY(
+    GameObject THISISOBFUSCATEDPROBABLY,
+    THISISOBFUSCATEDPROBABLY.THISISOBFUSCATEDPROBABLY THISISOBFUSCATEDPROBABLY
+) { }
+```
+
+BUT If you look at the enum containing `DestroyImmediately`, `DisembodyOnly` and `None` with the values, then you will find this. Once you find `THISISOBFUSCATEDPROBABLY.THISISOBFUSCATEDPROBABLY`, search for it in your dump until you find something like what is above.
+
+```csharp
+// Namespace: 
+private enum THISISOBFUSCATEDPROBABLY.THISISOBFUSCATEDPROBABLY
+{
+    // Fields
+    public int value__; // 0x10
+
+    public const BLFPIAEDOHE.GLKFEBPDAOD None = 0;
+    public const BLFPIAEDOHE.GLKFEBPDAOD DisembodyOnly = 1;
+    public const BLFPIAEDOHE.GLKFEBPDAOD DestroyImmediately = 131072;
+}
+```
+
 
 I will probably add more to this but i think this is enough
